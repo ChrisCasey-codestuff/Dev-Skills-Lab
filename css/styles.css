@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: left;
+}
+#addSkills {
+  display: flex;
+  flex-direction: row;
+}
+h1 {
+  padding: 10px;
+  color: white;
+  column-span: inherit;
+  background-color: rgb(149, 195, 128);
+}
+#newSkills {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+#skills {
+  color: rgb(253,182,88);
+  display: flex;
+  flex-direction: column;
+}
+#skills button {
+  color: orange;
+  background-color: red;
+}
+#newSkills button {
+  color: white;
+  background-color: rgb(149, 195, 128);
+
+}
